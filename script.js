@@ -1,7 +1,7 @@
 const form = document.getElementById("predictionForm");
 const resultDiv = document.getElementById("result");
 
-const API_URL = "http://ankitt.pythonanywhere.com/predict/";
+const API_URL = "https://ankitt.pythonanywhere.com/predict/";
 
 form.addEventListener("submit", function (e) {
     e.preventDefault();
